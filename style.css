@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'HeirofLightBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HeirofLightRegular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-weight: 100;
+}
+a {
+    color:burlywood;
+    text-decoration: none;
+}
+h1 {
+    font: 40px 'HeirofLightBold';
+    text-align: center;
+    border-bottom: 0.5px solid burlywood;
+    padding: 40px;
+    margin: 0;
+}
+h2 {
+    font: 25px 'HeirofLightBold';
+}
+h3 {
+    font: 18px 'HeirofLightRegular';
+}
+#grid ol {
+    font: 23px 'HeirofLightRegular';
+    border-right: 0.5px solid burlywood;
+    width: 150px;
+    padding: 40px;
+    padding-left: 55px;
+    margin: 0;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+}
+#article {
+    padding: 20px;
+}
+@media(max-width: 700px) {
+    #grid {
+        display: block;
+    }
+    #grid ol {
+    border-right: none;
+}
+}
