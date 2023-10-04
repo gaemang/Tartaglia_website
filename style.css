@@ -30,7 +30,7 @@ h2 {
 h3 {
     font: 18px 'HeirofLightRegular';
 }
-#grid ol {
+ol {
     font: 23px 'HeirofLightRegular';
     border-right: 0.5px solid burlywood;
     width: 150px;
